@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbarmenu from './Components/Navbar'
+import Categories from './Components/Categories'
+import Mobile from './Components/Mobile'
+import Footer from './Components/Footer'
+import Copyright from './Components/Copyright'
+import {Redirect, Route, Switch} from 'react-router-dom'
+import Ad from './Container/Ad';
+import Home from './Container/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbarmenu />
+      <Categories />
+      <Switch>
+      <Route exact path="/" component={Home}/>
+      <Route path="/ad/:id" component={Ad}/>
+      <Redirect to="/" />
+      </Switch>
+      <Mobile />
+      <Footer />
+      <Copyright />
     </div>
   );
 }

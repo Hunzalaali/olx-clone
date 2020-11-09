@@ -1,0 +1,402 @@
+.navbar {
+  height: 80px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.navbar-brand{
+  margin-left: 120px !important;
+}
+
+.location {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 50px;
+  width: 305px !important;
+}
+
+.location-form {
+  height: 46px !important;
+  font-size: 18px !important;
+}
+
+.search-bar {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 50px;
+  width: 820px !important;
+}
+
+.search-form {
+  height: 47px !important;
+  width: 762px !important;
+  font-size: 18px !important;
+}
+
+.btn-login {
+  font-size: 18px;
+  font-weight: 600;
+  color: black !important;
+  text-decoration: underline;
+}
+
+.btn-sell {
+  border: none;
+  cursor: pointer;;
+}
+
+.btn-modal {
+  padding: 10px 60px;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.categories {
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.ul-categories {
+  list-style-type: none;
+  height: 25px;
+}
+
+.all-categories {
+  font-weight: bold !important;
+}
+
+.li-categories {
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+}
+
+.hero-img {
+  position: relative;
+  
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.card-style img {
+
+  width: 50%;
+  height: 50% !important;
+  margin-left: 25%;
+}
+
+.card-style {
+  cursor: pointer;
+}
+
+.card {
+  width: 320px;
+  height: 280px;
+  border: 1px solid rgb(160, 160, 160) !important;
+}
+
+.card-body {
+  position: relative;
+}
+
+.card-title {
+  margin-bottom: 0px !important;
+}
+
+.card-text {
+  color: gray;
+  margin-top: 0px !important;
+}
+
+.card-date {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 10px;
+  color: gray;
+  font-size: 10px;
+}
+
+.f-title{
+  margin-bottom: 0 ;
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+.feature{
+  background-color: rgb(238, 238, 238);
+  height: 350px;
+}
+
+.btn-load {
+  text-align: center !important;
+  margin-bottom: 150px;
+}
+
+.btn-load button {
+  padding: 10px 13px;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btn-load button:hover{
+  border: 5px solid black;
+  border-radius: 5px;
+  padding: 7px 8px;
+}
+
+.mobile {
+  background-color: rgb(243, 243, 243);
+}
+
+.c2 h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+.c2 p {
+  font-size: 20px;
+}
+
+.c3 {
+  border-left: 2px solid rgb(219, 219, 219);
+}
+
+.c3 h3 {
+  padding-top: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.c3 img{
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.footer {
+  background-color: rgb(231, 231, 231);
+  border-top: 2px solid rgb(206, 206, 206);
+}
+
+.footer h1 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.f-link {
+  padding: 0 !important;
+  font-size: 12px;
+  margin-bottom: 4px !important;
+  color: rgb(109, 109, 109);
+  cursor: pointer;
+}
+
+.footer a:hover {
+  color: rgb(80, 79, 79) !important;
+  font-weight: 500;
+}
+
+.icons a {
+  cursor: pointer;
+  color: rgb(109, 109, 109) !important;
+  padding: 0px 6px 3px 6px;
+  border: 3px solid rgb(109, 109, 109);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.copyright {
+  background-color: #002f34;
+  color: #ffffff;
+  height: 50px;
+}
+
+.copyright h1 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 17px;
+  margin-right: 10px;
+}
+
+.copyright a{
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  margin-top: 16px;
+}
+
+.copyright a:hover{
+  color: white !important;
+}
+
+.copyright p{
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.c-right{
+  padding-left: 50% !important;
+}
+
+.adImage{
+  margin-top: 130px;
+  margin-left: 140px;
+  width: 930px;
+  height: 550px;
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  background-color: black;
+}
+
+.adImage img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.adDetail {
+  margin-left: 140px;
+  width: 930px;
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.adDetail h1 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.adDetail h2 {
+  color: gray;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 100px;
+  margin-left: 15px;
+}
+
+.adDetail p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.amount {
+  margin-top: 130px;
+  width: 450px;
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.amount h1{
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.amount h2{
+  color: gray;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.amount h3{
+  color: gray;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-left: 370px;
+}
+
+.seller {
+  width: 450px;
+  margin-top: 10px;
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.seller h1 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.seller-user {
+  margin-left: 15px !important;
+  margin-bottom: 20px;
+}
+
+.seller-user h2 {
+  margin-left: 15px !important;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.seller button {
+  width: 400px;
+  height: 45px;
+  color: white;
+  background-color: #002f34;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+@media (max-width: 540px) { 
+  .location-li, .search-li {
+    display: none;
+  }
+
+  .navbar-brand {
+    margin-left: 0 !important;
+  }
+
+  .li-categories {
+    width: 100px;
+    white-space: nowrap !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .hero-img img {
+    margin-left: -180%;
+  }
+
+  .card {
+    width: 60px;
+    margin-right: 0px !important;
+  }
+
+  .card-title {
+    width: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card-text {
+    width: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card-date {
+    width: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+}
